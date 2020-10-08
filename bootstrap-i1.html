@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+        .navbar{
+            background-color: #332a2a;
+            padding-left: 13em;
+            font-size: 18px;
+        }
+
+        .navbar-nav{
+            padding: 0 250px;
+            
+        }
+
+        .nav-item{
+            margin: 0 20px;
+        }
+        a{
+            color: #f9f9f9;
+        }
+        a:hover {
+            color:#eac4bb;
+            transition: all .5s ease-in-out;
+        }
+
+        .jumbotron {
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),url("https://images.unsplash.com/photo-1510493648510-d11f5bf55f33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+            color: white;
+            background-size: cover;
+            
+        }
+
+        .jumbotron>h1 {
+            font-family: 'Sansita Swashed', cursive;
+            letter-spacing: 4px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: all 1s ease-in-out;
+        }
+        
+        .btn {
+            background-color: #eac4bb;
+            outline: none;
+            border: none;
+            color: white;
+        }
+
+
+        .btn:hover {
+            background-color: rgba(234, 196, 187, 0.5);
+            color: rgb(175, 136, 127);
+        }
+
+    </style>
+</head>
+<body>
+     <!--navabar starts here-->
+    
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="img/dog.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Price</a>
+            </li>
+          </ul>
+        </div>
+      </nav>    
+    <!--navbar ends here-->
+    <div class="container"> <!--Hero banner starts here-->
+        <div class="jumbotron mt-5">
+            <h1 class="display-4">Dawid & Pedro Dog Adoption Center</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          </div>
+        <div class="row mt-5">
+            <div class="col-lg-3 col-md-6 mt-3">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn">Adopt me</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-3">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn">Adopt me</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-3">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn">Adopt me</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mt-3">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn">Adopt me</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3 col-md-4 col-sm-6 xs-col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde!</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 xs-col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde!</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 xs-col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde!</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 xs-col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde!</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 xs-col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde!</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 xs-col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde!</p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 xs-col-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, unde!</p>
+            </div>
+        </div>
+
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Breed</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">send inquiry</button>
+          </form>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
